@@ -4,7 +4,7 @@
 * 好吧，那就叫它godis,俗称狗的屎
 
 ```
-	dm := godis.NewDataMap()    //这样新建
+	dm := godis.New()           //这样新建
 	dm.LoadJSON("demo.json")    //载入json文件到dm这个字典中
 
 	trans := [][]string{{"１", "２", "３", "４", "５", "６", "７", "８", "９", "０"},
