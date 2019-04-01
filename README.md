@@ -2,7 +2,7 @@
 golang操作json字典的类，用最快速的json存取模块json-iterator
 这是最小巧快速的Key-Value数据库了,是不是有点象redis啊。
 好吧，那就叫它godis,俗称狗的屎
-  
+  ``` 
 	dm := godis.NewDataMap()    //这样新建
 	dm.LoadJSON("demo.json")    //载入json文件到dm这个字典中
 
@@ -28,3 +28,4 @@ golang操作json字典的类，用最快速的json存取模块json-iterator
 	fmt.Println("list:", ss)
 	fmt.Println("全角数字转半角:", sss)
 	fmt.Println("Size:", len(dm))
+```
